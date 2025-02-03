@@ -1,24 +1,65 @@
 .sidebar {
+    padding: 16px 25px 16px 70px;
+    width: 317px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    visibility: hidden;
+    background-color: #ffffff;
+    opacity: 0;
+    z-index: 11;
 }
 
 .sidebar.open {
+    visibility: visible;
+    opacity: 1;
+
 }
 
 .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    z-index: 10;
 }
 
 .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
 }
 
 .nav a {
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
 }
 
 .nav a:hover {
+    color: #58ACFF;
+}
+
+.nav a:active {
+    color: #3D6B99;
 }
 
 .nav a.active {
+    color: #0059B2;
+    text-decoration: underline;
 }
+
 .close {
+    margin-bottom: 23px;
+    display: flex;
+    justify-self: flex-end;
+    border: none;
+    background-color: transparent;
 }
 
 .close img {

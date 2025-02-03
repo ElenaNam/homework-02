@@ -33,3 +33,9 @@ button {
     cursor: pointer;
     transition: .3s;
 }
+
+.container {
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
