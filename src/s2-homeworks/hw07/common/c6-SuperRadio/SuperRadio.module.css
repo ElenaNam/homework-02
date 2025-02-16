@@ -1,7 +1,15 @@
 .radio {
+    /* display: none; */
 }
 
 .radio::before {
+    /* background-color: pink;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    position: relative; */
 }
 
 
@@ -9,7 +17,17 @@
 }
 
 .label {
+    display: flex;
+    align-items: center;
+    gap: 13px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.span {
+    font-size: 16px;
 }
