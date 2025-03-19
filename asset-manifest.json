@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homework-02/static/css/main.b7820ae8.css",
-    "main.js": "/homework-02/static/js/main.de8dbf37.js",
+    "main.js": "/homework-02/static/js/main.1016368d.js",
     "static/js/787.67f55d8d.chunk.js": "/homework-02/static/js/787.67f55d8d.chunk.js",
     "static/media/Montserrat-SemiBold.woff": "/homework-02/static/media/Montserrat-SemiBold.b965d8008bf5a046eaca.woff",
     "static/media/Montserrat-Regular.woff": "/homework-02/static/media/Montserrat-Regular.8ac4ba8ccac56fd72129.woff",
@@ -13,11 +13,11 @@
     "index.html": "/homework-02/index.html",
     "static/media/burger.svg": "/homework-02/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
     "main.b7820ae8.css.map": "/homework-02/static/css/main.b7820ae8.css.map",
-    "main.de8dbf37.js.map": "/homework-02/static/js/main.de8dbf37.js.map",
+    "main.1016368d.js.map": "/homework-02/static/js/main.1016368d.js.map",
     "787.67f55d8d.chunk.js.map": "/homework-02/static/js/787.67f55d8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7820ae8.css",
-    "static/js/main.de8dbf37.js"
+    "static/js/main.1016368d.js"
   ]
 }
