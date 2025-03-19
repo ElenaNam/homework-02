@@ -39,3 +39,20 @@ button {
     padding: 0 20px;
     margin: 0 auto;
 }
+
+#hw11 .css-eg0mwd-MuiSlider-thumb::before {
+    width: 6px;
+    height: 6px;
+    background-color: #00CC22;
+    box-shadow: none;
+}
+#hw11 .css-eg0mwd-MuiSlider-thumb::after {
+    width: 16px;
+    height: 16px;
+    border: 1px solid currentColor;
+}
+#hw11 .css-eg0mwd-MuiSlider-thumb {
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+}
