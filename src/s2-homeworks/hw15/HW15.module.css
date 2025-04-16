@@ -1,25 +1,61 @@
 .tech {
     width: 50vw;
+
+    
 }
 
 .developer {
+    text-transform: capitalize;
+    width: 50vw;
 
 }
 
 .techHeader {
+    display: flex;
+    gap: 5px;
+    align-items: center;
     width: 50vw;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
 }
 
 .developerHeader {
-
+    width: 50vw;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+    font-weight: 600;
 }
 
 .row {
+    max-width: 600px;
     display: flex;
+    padding: 17px 12px;
+    font-family: 'Roboto';
+
+    &:not(:last-of-type) {
+        border-bottom: 1px solid #E5E5E5;
+    }
 }
 
 .rowHeader {
+    max-width: 600px;
     display: flex;
+    margin-top: 36px;
+    padding: 11px 17px 9px;
+    background-color: #E5E5E5;
+
+    span {
+        cursor: pointer;
+    }
 }
 
 .loading {
